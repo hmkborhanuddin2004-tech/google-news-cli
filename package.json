@@ -1,0 +1,32 @@
+{
+  "name": "google-news-cli",
+  "version": "1.0.0",
+  "description": "Command-line tool to get the latest news from Google News",
+  "type": "module",
+  "bin": {
+    "gnews": "./bin/index.js",
+    "google-news": "./bin/index.js"
+  },
+  "main": "./bin/index.js",
+  "scripts": {
+    "start": "node bin/index.js",
+    "test": "node bin/index.js -n 3"
+  },
+  "keywords": [
+    "google",
+    "news",
+    "cli",
+    "terminal",
+    "rss"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@inquirer/prompts": "^7.3.3",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "fast-xml-parser": "^5.0.8",
+    "open": "^10.1.0",
+    "ora": "^8.2.0"
+  }
+}
